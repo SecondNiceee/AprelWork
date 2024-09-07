@@ -1,0 +1,16 @@
+.button{
+    @include flex-center(true);
+
+    height: var(--button-height);
+    padding-inline: 24px;
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    color: var(--color-light);
+    background-color: var(--color-accent);
+    border: var(--border);
+    border-radius: var(--border-radius);
+
+    
+}

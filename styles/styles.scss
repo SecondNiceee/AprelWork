@@ -1,0 +1,5 @@
+@import 'normalize', 'fonts', 'mixins', 'media', 'variables', 'utils', 'globals';
+
+@import  './bloks/button', './bloks/header', './bloks/clients', './bloks/banner', './bloks/features', './bloks/testimonial', './bloks/features-reverse', './bloks/CTA', './bloks/App', './bloks/contact', './bloks/footer' ;
+
+@import '../styles/bloks/_header.scss';

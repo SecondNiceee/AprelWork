@@ -1,0 +1,44 @@
+.clients{
+    &__title{
+    font-family: 'Raleway';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    padding-bottom: 48px;
+    }
+
+    &__partners{
+        max-width: 978px;
+        margin: auto;
+        
+        &-list{
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            column-gap: 80px;
+            margin: 0 167;
+            padding-top: 72px;
+            padding-bottom: 74px;
+        }
+
+    }
+
+    &__pertners{
+        max-width: 714px;
+        margin: auto;
+        
+        &-list{
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            column-gap: 80px;
+            max-width: 714px;
+            margin-left: 110px;
+            padding-top: 70px;
+            padding-bottom: 199px;
+        }
+
+    }
+}

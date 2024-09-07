@@ -1,0 +1,23 @@
+body{
+    font-family: var(--font-family-base);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.4;
+    color: var(--color-dark);
+    background-color: var(--color-light);
+}
+
+a,
+button,
+svg * {
+    transition-duration: var(--transition-duration);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+    @include fluid-text(48, 28);
+}

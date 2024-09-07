@@ -1,0 +1,20 @@
+.banner{
+    &__body{
+        background-color: var(--color-gray-light);
+    }
+    &__elems{
+        max-width: 1098px;
+        margin: auto;
+        &-list{
+            padding-top: 24px;
+            padding-bottom: 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+        }
+        
+        &-item-sq{
+            padding-top: 11px;
+        }
+    }
+}

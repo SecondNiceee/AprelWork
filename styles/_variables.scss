@@ -1,0 +1,22 @@
+:root{
+    --color-dark: #4B4B4B;
+    --color-dark-alt: #000000;
+    --color-light: #FFFFFF;
+    --color-accent: #DF8928;
+    --color-accent-alt:#612B00;
+    --color-gray: #5E5E5E;
+    --color-gray-light:#F3F3F3;
+    
+    --border: 1px solid var(--color-accent);
+    --border-radius: 4px;
+
+    --shadow: #9E9E9E0A; // тень у эллипса в шапке
+
+    --font-family-base: 'Raleway', sans-serif;
+    --font-family-base-alt: 'Roboto', sans-serif;
+
+    --container-width: 1312px;
+    --container-padding-x: 64px;
+
+    --button-height: 48px;
+}

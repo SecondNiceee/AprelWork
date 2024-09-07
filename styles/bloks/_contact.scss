@@ -1,0 +1,48 @@
+.contact{
+    &__subtitle{
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 36px;
+        letter-spacing: 0.2em;
+        color: var(--color-accent);
+    }
+
+    &__title{
+        margin-top: -10px;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 57.6px;
+        letter-spacing: -0.01em;
+        text-align: left;
+        color: var(--color-dark);
+    }
+
+    &__content{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 186px;
+        
+        &-image{
+            padding-top: 43px;
+        }
+
+        &-title{
+            margin-top: -30px;
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 38.4px;
+            letter-spacing: -0.01em;
+            text-align: left;
+            color: var(--color-dark);
+        }
+
+        &-text{
+            margin-top: -30px;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            text-align: left;
+            color: var(--color-dark); 
+        }
+    }
+}

@@ -1,0 +1,80 @@
+.features{
+    &__body{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__image{
+        padding-top: 160px;
+        padding-bottom: 64px;
+    }
+
+    &__content{
+        max-width: 616px;
+        padding-top: 275px;
+
+        &-subtitle{
+            font-family: 'Raleway';
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 36px;
+            letter-spacing: 0.2em;
+            text-align: left;
+            color: var(--color-accent);
+        }
+
+        &-title{
+            font-family: 'Raleway';
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 58px;
+            letter-spacing: -0.01em;
+            text-align: left;
+
+        }
+    }
+    
+
+    &__cards{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    &__card{
+        max-width: 296px;
+        column-gap: 24px;
+        
+
+        // &-item{
+           
+        // }
+
+        &-img{
+            padding-top: 16px;
+            padding-bottom: 32px;
+        }
+
+        &-title{
+            padding-top: 16px;
+            font-family: 'Raleway';
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 34px;
+            letter-spacing: -0.01em;
+            text-align: left;
+
+        }
+
+        &-text{
+            padding-top: 16px;
+            font-family: 'Raleway';
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+    }
+}
+
